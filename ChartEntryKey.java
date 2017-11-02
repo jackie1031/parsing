@@ -19,8 +19,8 @@ public class ChartEntryKey {
     }
 
     //constructor
-    public ChartEntryKey(int startCol, int dotPosi, String symbol, ArrayList<String> ruleExpression) {
-        this.lhs = symbol;
+    public ChartEntryKey(int startCol, int dotPosi, String nonTerminal, ArrayList<String> ruleExpression) {
+        this.lhs = nonTerminal;
         this.ruleExpression = ruleExpression;
         this.startCol = startCol;
         this.dotPosi = dotPosi;
